@@ -1,0 +1,167 @@
+
+.flexcontainer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 13px;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.flexcontainer .logo{
+    width: 100px;
+    justify-self: flex-start;
+    flex: auto;
+    padding-right: 820px;
+    margin: 0%;
+    padding-top: 0%;
+}
+
+
+h1{
+   font-family: 'montserrat', sans-serif;
+}
+html,body
+{
+margin: 0;
+padding: 0;
+align-items: center;
+justify-content: center;
+background: #fff;
+}
+.container
+{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}
+.btn
+{
+width: 100px;
+height: 100px;
+background-color: #fafafa;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 2em;
+margin-right: 1em;
+cursor: pointer;
+transition: all 0.3s;
+border-radius: 10px;
+}
+i.fa
+{
+font-size: 44px;
+}
+#fb
+{
+color: #006fff;
+text-shadow: 0 0 30px #006fff;
+}
+#ig
+{
+color: #ff5f40;
+text-shadow: 0 0 30px #ff5f40;
+}
+#tw
+{
+color: #00acff;
+text-shadow: 0 0 30px #00acff;
+}
+.btn.fb-btn
+{
+box-shadow: 0 20px 20px -17px rgba(0,111,255,0.53);
+}
+.btn.fb-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(0,111,255,0.65);
+}
+.btn.ig-btn
+{
+box-shadow: 0 20px 20px -17px rgba(255,16,39,0.5);
+}
+.btn.ig-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(255,16,39,0.57);
+}
+.btn.tw-btn
+{
+box-shadow: 0 20px 20px -17px rgba(0,255,255,0.53);
+}
+.btn.tw-btn:hover
+{
+transform: scale(1.2);
+box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
+}
+
+
+a{
+    text-decoration: none;
+    color: #333333;
+    padding: 10px;
+    transition:0.3s ease;
+}
+a:hover{
+   color:purple ;
+    
+}
+
+    
+
+.flexcontainer .home{
+    align-self: flex-start;
+}
+
+/*second*/
+.image{
+    
+    display: flex;
+    background-color: rgba(173, 216, 230, 0.3); 
+}
+.me{
+    width: auto;
+    height: 300px;
+}
+ p{
+    font-size: 18px;
+    color: #333333;
+}
+#about{
+    display: flex;
+    padding-top: 50px;
+}
+#project{
+    margin-top: 50px;
+    
+}
+#skills{
+    margin-top:100px;
+}
+
+.b3{
+    width: auto;
+    height: 400px;
+    display: flex;
+    background-color: rgba(173, 216, 230, 0.3); 
+    border-top-left-radius: 2000px;
+    border-bottom-left-radius: 2000px;
+}
+.b3 p{
+    padding-left:80px;
+    
+}
+#contact{
+
+    margin-top:100px;
+}
+
+footer{
+    padding-left: 50%;
+    margin-top: 50px;
+    background: linear-gradient(to bottom, rgba(173, 216, 230, 0.8), rgba(240, 248, 255, 0.8));
+
+}
