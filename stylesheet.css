@@ -100,7 +100,8 @@ box-shadow: 0 30px 45px -15px rgba(0,111,255,0.6);
 
 
 a{
-    text-decoration: none;
+    text-decoration: none;  
+    display:block;
     color: #333333;
     padding: 10px;
     transition:0.3s ease;
