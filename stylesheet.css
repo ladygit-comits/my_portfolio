@@ -400,7 +400,7 @@ textarea {
 }
     .social-links {
         flex-direction: row;
-        padding-left: 200px;
+        padding-left: 50%;
     }
 }
 
