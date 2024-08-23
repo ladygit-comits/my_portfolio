@@ -193,6 +193,7 @@ a:hover {
 }
 
 .image {
+    height: fit-content;
     display: flex;
     background-color: rgba(173, 216, 230, 0.3);
 }
@@ -222,14 +223,14 @@ p {
 
 .b3 {
     width: auto;
-    height: 400px;
+    height:  400px;
     display: flex;
     background-color: rgba(173, 216, 230, 0.3);
    
 }
 
 .b3 p {
-    padding-left: 80px;
+    padding-left: 5px;
 }
 
 #contact {
@@ -373,32 +374,33 @@ textarea {
   
 
     .b2{
-
         
        display: flex;
        flex-direction: row;
        align-self:flex-start;
     }
-   
+   .b3{
+    width: auto;
+    height:  fit-content;
+   }
  .metwo{
     height: 200px;
         width: 200px;
  }
 
-    /* Contact Form */
     .contact-form {
         padding: 10px;
     }
 
-    /* Footer */
-    footer {
-        padding: 10px 0;
-       
-    }
 
-    .social-links {
+.footer-c{
+    display: flex;
         flex-direction: column;
-        align-items: center;
+       align-items: center;
+}
+    .social-links {
+        flex-direction: row;
+        padding-left: 200px;
     }
 }
 
@@ -433,5 +435,10 @@ textarea {
     /* Footer adjustments */
     footer {
         font-size: 12px;
+    }
+    .footer-c{
+        display: flex;
+            flex-direction: row;
+           align-items: center;
     }
 }
