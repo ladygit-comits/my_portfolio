@@ -349,6 +349,7 @@ textarea {
     .flexcontainer {
         flex-direction: column;
         align-items: center;
+        padding-bottom: 50px;
     }
 
 *{
@@ -363,6 +364,7 @@ textarea {
         justify-content: center;
         gap: 15px;
         padding: 10px 0;
+      
     }
 
     .nav-links a {
