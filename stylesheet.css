@@ -345,11 +345,12 @@ textarea {
     font-size: 15px; 
 }
 @media only screen and (max-width: 768px) {
-    /* Adjust navigation for mobile */
+    
     .flexcontainer {
+        position: static;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 150px;
+        margin-bottom: 80px;
     }
 
 *{
@@ -396,6 +397,69 @@ textarea {
 
 
 .footer-c{
+    margin-top: 80px;
+    display: flex;
+        flex-direction: column;
+       align-items: center;
+}
+
+    .social-links {
+        flex-direction: row;
+        padding-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+   
+    .flexcontainer {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    *{
+        font-size: 10px;
+    }
+    
+    .me{
+        height: auto;
+        width: 200px;
+    }
+        .nav-links {
+          
+            justify-content: center;
+            gap: 15px;
+            padding: 10px 0;
+          
+        }
+    
+        .nav-links a {
+            padding: 8px;
+        }
+         p{
+            font-size: 8px; 
+        }
+    
+    .card {
+        width: 100%;
+    }
+
+    .b3 p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .b3{
+        width: auto;
+        height:  fit-content;
+       }
+    .metwo{
+        height: 200px;
+            width: 200px;
+     }
+
+    .footer-c{
+        margin-top: 80px;
     display: flex;
         flex-direction: column;
        align-items: center;
@@ -406,45 +470,3 @@ textarea {
     }
 }
 
-@media only screen and (max-width: 480px) {
-    /* Further adjustments for very small screens */
-    .flexcontainer {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 150px;
-    }
-
-
-    .nav-links {
-        gap: 10px;
-        padding: 5px 0;
-    }
-
-    .nav-links a {
-        padding: 5px;
-        font-size: 14px;
-    }
-
-    /* Card adjustments */
-    .card {
-        width: 100%;
-    }
-
-    /* Skills section adjustments */
-    .b3 p {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    /* Footer adjustments */
-    .footer-c{
-        display: flex;
-            flex-direction: column;
-           align-items: center;
-    }
-        .social-links {
-            flex-direction: row;
-            padding-left: 50%;
-        }
-    }
-    
