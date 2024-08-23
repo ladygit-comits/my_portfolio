@@ -81,6 +81,7 @@ html, body {
 }
 
 .card {
+    
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -224,8 +225,7 @@ p {
     height: 400px;
     display: flex;
     background-color: rgba(173, 216, 230, 0.3);
-    border-top-left-radius: 2000px;
-    border-bottom-left-radius: 2000px;
+   
 }
 
 .b3 p {
@@ -342,4 +342,96 @@ textarea {
 
 .social-links i {
     font-size: 15px; 
+}
+@media only screen and (max-width: 768px) {
+    /* Adjust navigation for mobile */
+    .flexcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+*{
+    font-size: 10px;
+}
+
+.me{
+    height: auto;
+    width: 200px;
+}
+    .nav-links {
+        justify-content: center;
+        gap: 15px;
+        padding: 10px 0;
+    }
+
+    .nav-links a {
+        padding: 8px;
+    }
+     p{
+        font-size: 8px; 
+    }
+  
+
+    .b2{
+
+        
+       display: flex;
+       flex-direction: row;
+       align-self:flex-start;
+    }
+   
+ .metwo{
+    height: 200px;
+        width: 200px;
+ }
+
+    /* Contact Form */
+    .contact-form {
+        padding: 10px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px 0;
+       
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .flexcontainer {
+        padding: 10px;
+        position:static;
+    }
+
+    .nav-links {
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    .nav-links a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    /* Card adjustments */
+    .card {
+        width: 100%;
+    }
+
+    /* Skills section adjustments */
+    .b3 p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Footer adjustments */
+    footer {
+        font-size: 12px;
+    }
 }
