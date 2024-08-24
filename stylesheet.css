@@ -206,9 +206,13 @@ a:hover {
 p {
     font-size: 18px;
     color: #333333;
+    overflow: scroll;
 }
-
+.image {
+max-height: 200px;
+}
 #about {
+    
     display: flex;
     padding-top: 50px;
 }
@@ -222,14 +226,14 @@ p {
 }
 
 .b3 {
-    width: auto;
-    height:  400px;
+    max-height: 200px;
     display: flex;
     background-color: rgba(173, 216, 230, 0.3);
    
 }
 
 .b3 p {
+    overflow: scroll;
     padding-left: 5px;
 }
 
@@ -387,9 +391,12 @@ textarea {
     height:  fit-content;
    }
  .metwo{
-    height: 200px;
-        width: 200px;
+    max-height: 200px;
+        max-width: 200px;
+        display: block;
+        margin: 0 auto;
  }
+
 
     .contact-form {
         padding: 10px;
@@ -412,7 +419,7 @@ textarea {
 @media only screen and (max-width: 480px) {
    
     .flexcontainer {
-        position: static;
+         position: static;
         flex-direction: column;
         align-items: center;
         margin-bottom: 80px;
