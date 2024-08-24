@@ -206,13 +206,9 @@ a:hover {
 p {
     font-size: 18px;
     color: #333333;
-    overflow: scroll;
 }
-.image {
-max-height: 200px;
-}
+
 #about {
-    
     display: flex;
     padding-top: 50px;
 }
@@ -226,14 +222,14 @@ max-height: 200px;
 }
 
 .b3 {
-    max-height: 200px;
+    width: auto;
+    height:  400px;
     display: flex;
     background-color: rgba(173, 216, 230, 0.3);
    
 }
 
 .b3 p {
-    overflow: scroll;
     padding-left: 5px;
 }
 
@@ -391,12 +387,9 @@ textarea {
     height:  fit-content;
    }
  .metwo{
-    max-height: 200px;
-        max-width: 200px;
-        display: block;
-        margin: 0 auto;
+    height: 200px;
+        width: 200px;
  }
-
 
     .contact-form {
         padding: 10px;
